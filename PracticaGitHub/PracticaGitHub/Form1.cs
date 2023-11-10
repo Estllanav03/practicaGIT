@@ -17,9 +17,10 @@ namespace PracticaGitHub
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void btnCalcular_Click(object sender, EventArgs e)
         {
 
         }
     }
+}
 }
