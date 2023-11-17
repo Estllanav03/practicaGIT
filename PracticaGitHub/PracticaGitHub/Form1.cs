@@ -22,7 +22,7 @@ namespace PracticaGitHub
         {
 
            string textoTelegrama;
-           char tipoTelegrama = ' ';
+           char tipoTelegrama = 'o';
            int numPalabras = 0;
            double coste;
 
