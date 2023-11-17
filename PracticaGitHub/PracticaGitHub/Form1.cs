@@ -32,13 +32,13 @@ namespace PracticaGitHub
                 if (cbUrgente.Checked)
                     tipoTelegrama = 'u';
                 //Obtengo el número de palabras que forma el telegrama
-                numPalabras = textoTelegrama.Length;
+                numPalabras = textoTelegrama.Split(' ').Length;
                 //Si el telegrama es ordinario
                 if (tipoTelegrama == 'o')
                     if (numPalabras <= 10)
-                        coste = 25;
+                        coste = 2.5;
                     else
-                        coste = 0.5 * numPalabras;
+                        coste = 2.5 * (numPalabras - 10);
                 else
                 //Si el telegrama es urgente
                 if (tipoTelegrama == 'u')
