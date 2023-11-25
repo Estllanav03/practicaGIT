@@ -33,16 +33,14 @@
             this.lblTexto = new System.Windows.Forms.Label();
             this.txtPrecio = new System.Windows.Forms.TextBox();
             this.txtTelegrama = new System.Windows.Forms.TextBox();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
+            this.cbUrgente = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // btnCalcular
             // 
-            this.btnCalcular.Location = new System.Drawing.Point(456, 276);
-            this.btnCalcular.Margin = new System.Windows.Forms.Padding(2);
+            this.btnCalcular.Location = new System.Drawing.Point(684, 425);
             this.btnCalcular.Name = "btnCalcular";
-            this.btnCalcular.Size = new System.Drawing.Size(95, 41);
+            this.btnCalcular.Size = new System.Drawing.Size(142, 63);
             this.btnCalcular.TabIndex = 11;
             this.btnCalcular.Text = "Calcular";
             this.btnCalcular.UseVisualStyleBackColor = true;
@@ -51,74 +49,58 @@
             // lblCoste
             // 
             this.lblCoste.AutoSize = true;
-            this.lblCoste.Location = new System.Drawing.Point(249, 302);
-            this.lblCoste.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblCoste.Location = new System.Drawing.Point(374, 465);
             this.lblCoste.Name = "lblCoste";
-            this.lblCoste.Size = new System.Drawing.Size(37, 13);
+            this.lblCoste.Size = new System.Drawing.Size(55, 20);
             this.lblCoste.TabIndex = 10;
             this.lblCoste.Text = "Coste:";
             // 
             // lblTexto
             // 
             this.lblTexto.AutoSize = true;
-            this.lblTexto.Location = new System.Drawing.Point(251, 130);
-            this.lblTexto.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblTexto.Location = new System.Drawing.Point(376, 200);
             this.lblTexto.Name = "lblTexto";
-            this.lblTexto.Size = new System.Drawing.Size(37, 13);
+            this.lblTexto.Size = new System.Drawing.Size(52, 20);
             this.lblTexto.TabIndex = 9;
             this.lblTexto.Text = "Texto:";
             // 
             // txtPrecio
             // 
-            this.txtPrecio.Location = new System.Drawing.Point(288, 300);
-            this.txtPrecio.Margin = new System.Windows.Forms.Padding(2);
+            this.txtPrecio.Location = new System.Drawing.Point(432, 462);
             this.txtPrecio.Name = "txtPrecio";
-            this.txtPrecio.Size = new System.Drawing.Size(80, 20);
+            this.txtPrecio.Size = new System.Drawing.Size(118, 26);
             this.txtPrecio.TabIndex = 7;
             // 
             // txtTelegrama
             // 
-            this.txtTelegrama.Location = new System.Drawing.Point(253, 154);
-            this.txtTelegrama.Margin = new System.Windows.Forms.Padding(2);
+            this.txtTelegrama.Location = new System.Drawing.Point(380, 237);
             this.txtTelegrama.Multiline = true;
             this.txtTelegrama.Name = "txtTelegrama";
-            this.txtTelegrama.Size = new System.Drawing.Size(291, 88);
+            this.txtTelegrama.Size = new System.Drawing.Size(434, 133);
             this.txtTelegrama.TabIndex = 6;
             // 
-            // radioButton1
+            // cbUrgente
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(330, 266);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(63, 17);
-            this.radioButton1.TabIndex = 12;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "Urgente";
-            this.radioButton1.UseVisualStyleBackColor = true;
-            // 
-            // radioButton2
-            // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(252, 266);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(67, 17);
-            this.radioButton2.TabIndex = 13;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "Ordinario";
-            this.radioButton2.UseVisualStyleBackColor = true;
+            this.cbUrgente.AutoSize = true;
+            this.cbUrgente.Location = new System.Drawing.Point(380, 409);
+            this.cbUrgente.Name = "cbUrgente";
+            this.cbUrgente.Size = new System.Drawing.Size(102, 24);
+            this.cbUrgente.TabIndex = 12;
+            this.cbUrgente.Text = "Urgente?";
+            this.cbUrgente.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.radioButton2);
-            this.Controls.Add(this.radioButton1);
+            this.ClientSize = new System.Drawing.Size(1200, 692);
+            this.Controls.Add(this.cbUrgente);
             this.Controls.Add(this.btnCalcular);
             this.Controls.Add(this.lblCoste);
             this.Controls.Add(this.lblTexto);
             this.Controls.Add(this.txtPrecio);
             this.Controls.Add(this.txtTelegrama);
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -133,8 +115,7 @@
         private System.Windows.Forms.Label lblTexto;
         private System.Windows.Forms.TextBox txtPrecio;
         private System.Windows.Forms.TextBox txtTelegrama;
-        private System.Windows.Forms.RadioButton radioButton1;
-        private System.Windows.Forms.RadioButton radioButton2;
+        private System.Windows.Forms.CheckBox cbUrgente;
     }
 }
 
