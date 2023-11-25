@@ -29,7 +29,7 @@ namespace PracticaGitHub
                 //Leo el telegrama
                 textoTelegrama = txtTelegrama.Text;
                 // telegrama urgente?
-                if (radio.Checked)
+                if (rdUrgente.Checked)
                     tipoTelegrama = 'u';
                 //Obtengo el número de palabras que forma el telegrama
                 numPalabras = textoTelegrama.Split(' ').Length;
