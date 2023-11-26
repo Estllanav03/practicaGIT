@@ -26,7 +26,7 @@ namespace PracticaGitHub
            int numPalabras = 0;
            double coste;
 
-                //Leo el telegrama
+                //Leo el telegram
                 textoTelegrama = txtTelegrama.Text;
                 // telegrama urgente?
                 if (rdUrgente.Checked)
